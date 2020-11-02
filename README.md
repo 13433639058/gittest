@@ -5,5 +5,5 @@ the first test
 void main()
 {
     LED_Init();
-    GPIO_ReadDataBit(GPIO, GPIO_Pin_4);
+    GPIO_ReadDataBit(GPIO, GPIO_Pin_4);//读取引脚电平
 }
