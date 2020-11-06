@@ -1,0 +1,38 @@
+
+T03E0 000:418 SEGGER J-Link V6.50b Log File (0001ms, 0111ms total)
+T03E0 000:418 DLL Compiled: Sep  6 2019 17:57:35 (0001ms, 0111ms total)
+T03E0 000:418 Logging started @ 2020-10-21 08:56 (0002ms, 0112ms total)
+T03E0 000:420 JLINK_SetWarnOutHandler(...) (0000ms, 0112ms total)
+T03E0 000:420 JLINK_OpenEx(...)
+Firmware: J-Link OB-STM32F072-CortexM compiled Mar  8 2020 11:15:54
+Hardware: V1.00
+Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+TELNET listener socket opened on port 19021WEBSRV 
+Starting webserver (0086ms, 0198ms total)
+T03E0 000:420 WEBSRV Webserver running on local port 19080 (0086ms, 0198ms total)
+T03E0 000:420   returns O.K. (0086ms, 0198ms total)
+T03E0 000:506 JLINK_SetErrorOutHandler(...) (0001ms, 0199ms total)
+T03E0 000:507 JLINK_ExecCommand("ProjectFile = "C:\Users\lww\Desktop\code practise\ms9331_rx\MDK\JLinkSettings.ini"", ...). Ref file found at: E:\KEIL\ARM\Segger\JLinkDevices.ref (0006ms, 0205ms total)
+T03E0 000:507 XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml (0006ms, 0205ms total)
+T03E0 000:507 C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml evaluated successfully. (0011ms, 0210ms total)
+T03E0 000:507   returns 0x00 (0179ms, 0378ms total)
+T03E0 000:686 JLINK_ExecCommand("Device = CX32L003F8", ...). Device "CORTEX-M0" selected.  returns 0x00 (0028ms, 3587ms total)
+T03E0 015:785 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 3587ms total)
+T03E0 015:785 JLINK_GetHardwareVersion()  returns 0x2710 (0000ms, 3587ms total)
+T03E0 015:785 JLINK_GetDLLVersion()  returns 65002 (0000ms, 3587ms total)
+T03E0 015:785 JLINK_GetFirmwareString(...) (0000ms, 3587ms total)
+T03E0 015:785 JLINK_GetDLLVersion()  returns 65002 (0000ms, 3587ms total)
+T03E0 015:785 JLINK_GetCompileDateTime() (0000ms, 3587ms total)
+T03E0 015:785 JLINK_GetFirmwareString(...) (0000ms, 3587ms total)
+T03E0 015:785 JLINK_GetHardwareVersion()  returns 0x2710 (0000ms, 3587ms total)
+T03E0 015:785 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+  ***** Error: Debugger tries to select target interface JTAG.
+This interface is not supported by the connected emulator.
+Selection will be ignored by the DLL.  returns 0x01 (0002ms, 3589ms total)
+T03E0 015:787 JLINK_GetHardwareVersion()  returns 0x2710 (0000ms, 3589ms total)
+T03E0 015:787 JLINK_GetDLLVersion()  returns 65002 (0001ms, 3590ms total)
+T03E0 015:788 JLINK_GetFirmwareString(...) (0000ms, 3590ms total)
+T03E0 015:793 JLINK_GetFirmwareString(...) (0000ms, 3590ms total)
+T03E0 022:585 JLINK_Close() (0008ms, 3598ms total)
+T03E0 022:585  (0008ms, 3598ms total)
+T03E0 022:585 Closed (0008ms, 3598ms total)
